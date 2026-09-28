@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-09-28 07:12:38">
+  <!-- 1. Requested Item Record (RITM0010001) -->
+  <sc_req_item action="INSERT_OR_UPDATE">
+    <active>true</active>
+    <activity_due/>
+    <additional_assignee_list/>
+    <approval>requested</approval>
+    <approval_history/>
+    <approval_set/>
+    <assigned_to display_value=""/>
+    <assignment_group display_value=""/>
+    <backordered>false</backordered>
+    <billable>false</billable>
+    <business_duration/>
+    <business_service display_value=""/>
+    <calendar_duration/>
+    <cat_item display_value="Standard Laptop">04b7e94b4f7b4200086eeed18110c7fd</cat_item>
+    <close_notes/>
+    <closed_at/>
+    <closed_by display_value=""/>
+    <cmdb_ci display_value=""/>
+    <comments/>
+    <comments_and_work_notes/>
+    <company display_value=""/>
+    <configuration_item display_value=""/>
+    <contact_type/>
+    <context display_value=""/>
+    <contract display_value=""/>
+    <correlation_display/>
+    <correlation_id/>
+    <delivery_plan display_value=""/>
+    <delivery_task display_value=""/>
+    <description/>
+    <due_date>2026-09-28 06:22:08</due_date>
+    <escalation>0</escalation>
+    <estimated_delivery/>
+    <expected_start/>
+    <flow_context display_value="Standard laptop task">7264fb56812fc71034471a21c7024a8b</flow_context>
+    <follow_up/>
+    <group_list/>
+    <impact>3</impact>
+    <knowledge>false</knowledge>
+    <location display_value=""/>
+    <made_sla>true</made_sla>
+    <number>RITM0010001</number>
+    <opened_at>2026-09-28 06:22:09</opened_at>
+    <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
+    <order/>
+    <order_guide display_value=""/>
+    <parent display_value=""/>
+    <price>105399.0617</price>
+    <priority/>
+    <quantity>1</quantity>
+    <reassignment_count>0</reassignment_count>
+    <recurring_frequency>yearly</recurring_frequency>
+    <recurring_price>9581.7329</recurring_price>
+    <rejection_goto display_value=""/>
+    <request display_value="REQ0010001">5273fbd2732fc7102d8dff604ab8b7c6</request>
+    <requested_for display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</requested_for>
+    <route_reason/>
+    <sc_catalog display_value=""/>
+    <service_offering display_value=""/>
+    <short_description>Lenovo - Carbon x1</short_description>
+    <sla_due/>
+    <stage>request_approved</stage>
+    <state>1</state>
+    <sys_class_name>sc_req_item</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2026-09-28 06:22:09</sys_created_on>
+    <sys_domain>global</sys_domain>
+    <sys_domain_path>/</sys_domain_path>
+    <sys_id>1e73fbd2732fc7102d8dff604ab8b7c6</sys_id>
+    <sys_mod_count>2</sys_mod_count>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2026-09-28 06:26:16</sys_updated_on>
+    <task_effective_number>RITM0010001</task_effective_number>
+    <time_worked/>
+    <universal_request display_value=""/>
+    <upon_approval>proceed</upon_approval>
+    <upon_reject>cancel</upon_reject>
+    <urgency>3</urgency>
+    <user_input/>
+    <variables/>
+    <watch_list/>
+    <wf_activity display_value=""/>
+    <work_end/>
+    <work_notes/>
+    <work_notes_list/>
+    <work_start/>
+  </sc_req_item>
+
+  <!-- 2. Service Catalog Task Record (SCTASK0010001) -->
+  <sc_task action="INSERT_OR_UPDATE">
+    <active>true</active>
+    <activity_due/>
+    <additional_assignee_list/>
+    <approval>approved</approval>
+    <approval_history/>
+    <approval_set>2026-09-28 06:26:20</approval_set>
+    <assigned_to display_value=""/>
+    <assignment_group display_value="Hardware"/>
+    <business_duration/>
+    <business_service display_value=""/>
+    <calendar_duration/>
+    <calendar_stc/>
+    <cat_item display_value="Standard Laptop">04b7e94b4f7b4200086eeed18110c7fd</cat_item>
+    <close_notes/>
+    <closed_at/>
+    <closed_by display_value=""/>
+    <cmdb_ci display_value=""/>
+    <comments/>
+    <comments_and_work_notes/>
+    <company display_value=""/>
+    <contact_type/>
+    <contract display_value=""/>
+    <correlation_display/>
+    <correlation_id/>
+    <delivery_plan display_value=""/>
+    <delivery_task display_value=""/>
+    <description>Laptop need to Configured</description>
+    <due_date/>
+    <escalation>0</escalation>
+    <expected_start/>
+    <follow_up/>
+    <group_list/>
+    <impact>3</impact>
+    <knowledge>false</knowledge>
+    <location display_value=""/>
+    <made_sla>true</made_sla>
+    <number>SCTASK0010001</number>
+    <opened_at>2026-09-28 06:26:20</opened_at>
+    <opened_by display_value="">system</opened_by>
+    <order/>
+    <parent display_value="RITM0010001">1e73fbd2732fc7102d8dff604ab8b7c6</parent>
+    <priority/>
+    <reassignment_count>0</reassignment_count>
+    <rejection_goto display_value=""/>
+    <request display_value="REQ0010001">5273fbd2732fc7102d8dff604ab8b7c6</request>
+    <request_item display_value="RITM0010001">1e73fbd2732fc7102d8dff604ab8b7c6</request_item>
+    <route_reason/>
+    <sc_catalog display_value=""/>
+    <service_offering display_value=""/>
+    <short_description>Laptop need to Configured</short_description>
+    <sla_due/>
+    <state>1</state>
+    <sys_class_name>sc_task</sys_class_name>
+    <sys_created_by>system</sys_created_by>
+    <sys_created_on>2026-09-28 06:26:20</sys_created_on>
+    <sys_domain>global</sys_domain>
+    <sys_domain_path>/</sys_domain_path>
+    <sys_id>7b643f56732fc7102d8dff604ab8b72b</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_updated_by>system</sys_updated_by>
+    <sys_updated_on>2026-09-28 06:26:20</sys_updated_on>
+    <task_effective_number>SCTASK0010001</task_effective_number>
+    <time_worked/>
+    <universal_request display_value=""/>
+    <upon_approval>proceed</upon_approval>
+    <upon_reject>cancel</upon_reject>
+    <urgency>3</urgency>
+    <user_input/>
+    <variables/>
+    <watch_list/>
+    <wf_activity display_value=""/>
+    <work_end/>
+    <work_notes/>
+    <work_notes_list/>
+    <work_start>2026-09-28 06:26:20</work_start>
+  </sc_task>
+</unload>
